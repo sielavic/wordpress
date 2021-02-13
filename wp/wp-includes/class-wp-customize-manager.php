@@ -2054,7 +2054,7 @@ final class WP_Customize_Manager {
 			form.customize-unpreviewable button,
 			a.customize-unpreviewable,
 			area.customize-unpreviewable {
-				cursor: not-allowed !important;
+				pointer-events: auto;
 			}
 		</style>
 		<?php
